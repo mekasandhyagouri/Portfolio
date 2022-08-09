@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import WhatsApp from "../../Assets/Projects/whatsapp.PNG";
+import superMario from "../../Assets/Projects/supermario.png";
+import kalasa from "../../Assets/Projects/Kalasa.png";
+import Netflix from "../../Assets/Projects/netflix.PNG";
+// import suicide from "../../Assets/Projects/suicide.png";
+// import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -23,25 +23,49 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Netflix}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Netflix-Clone"
+              description="This project is a simplified front end clone of Netflix build with react.js, Material-UI, and Firebase. Have features which allows user for realtime streaming of trailers of movies, and can see which movies are trending."
+              link="https://netflix-clone-8d8e6.web.app/"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={WhatsApp}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Whatsapp-Clone"
+              description="Whatsapp Clone is a progressive web application that clones the WhatsApp web, which is created for one-to-one messaging using ReactJs, MongoDb, Express and NodeJs, and Firebase."
+              link="https://euphonious-dusk-f89e99.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={superMario}
+              isBlog={false}
+              title="Super Mario Game"
+              description="This simple Mario Game project is written in Python.GUI uses pygame library. Talking about the gameplay,
+               it’s a single player game, where the player (Mario) has to dodge fireballs coming out from the dragon.
+                The main objective of this game is to gain the highest score and level up. Each level comes with more 
+                difficulties, the area gets smaller and smaller as soon as there’s an increment in level."
+              link="https://github.com/mekasandhyagouri/SuperMarioGame"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kalasa}
+              isBlog={false}
+              title="Kalasa Web App"
+              description="This simple Frontend website is created using ReactJs, Material-UI, Redux and Firebase. And the User Interface is designed in Figma and adobe. It is a web application which allows users to create an account as Priest,Visitor or Temple, and then can explore nearby temples and can also book for an event in the temple."
+              link="https://github.com/mekasandhyagouri/kalasa-app"
+            />
+          </Col>
+
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -80,7 +104,7 @@ function Projects() {
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

@@ -8,11 +8,11 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+
 } from "react-icons/di";
 import {
-  SiPytorch,
   SiFirebase,
-  SiNextdotjs,
+  SiExpress,
 } from "react-icons/si";
 
 function Techstack() {
@@ -26,6 +26,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
