@@ -6,6 +6,7 @@ import WhatsApp from "../../Assets/Projects/whatsapp.PNG";
 import superMario from "../../Assets/Projects/supermario.png";
 import kalasa from "../../Assets/Projects/Kalasa.png";
 import Netflix from "../../Assets/Projects/netflix.PNG";
+import BrainTumor from "../../Assets/Projects/BrainTumor.jpg";
 // import suicide from "../../Assets/Projects/suicide.png";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -21,6 +22,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BrainTumor}
+              isBlog={false}
+              title="Classification of Brain Tumor using CNN Tensor Flow"
+              description="Performed transfer learning with state of
+              art Convolutional Neural Network architectures with more than 3000 images belonging to 4 classes.Fine-tuned the
+              models and obtained an accuracy of 98% on the test set."
+              link="https://github.com/mekasandhyagouri/Brain-tumor-classification"
+              
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Netflix}
