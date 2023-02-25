@@ -12,7 +12,7 @@ const resumeLink =
 "https://raw.githubusercontent.com/mekasandhyagouri/Portfolio/main/src/Assets/Sandhya_resume.pdf"
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
-
+  
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
