@@ -8,9 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sandhya Gouri Meka </span>
+            Hi Everyone, I am <span className="purple">Sandhya Meka </span>
             from <span className="purple"> Odisha, India.</span>
-            <br />I am a undergraduate student pursuing my Bachelor's Degree in <span className="purple">Electronics and Telecommunication Engineering </span>  
+            <br />I am a dedicated System Engineer at Tata Consultancy Services (TCS) with a strong background in Electronics and Telecommunication Engineering. 
+            With expertise in Java, C, and JavaScript, I specialize in developing and maintaining high-performance software applications. 
+            Currently, I am working on a Product Lifecycle Management project, where I collaborate with cross-functional teams to deliver 
+            innovative and efficient solutions. My passion for technology drives me to continuously learn and implement best practices in 
+            software development to optimize system performance and user satisfaction.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
